@@ -1,10 +1,11 @@
-product_id,seller_id,parent_product_id,sku_code,name,brand,category,variant_attrs,short_desc,long_desc,image_urls,base_price,currency,active,created_at,updated_at
-P-1000,S-001,,A55-PARENT,Samsung Galaxy A55 5G,Samsung,Smartphones,,Potente y eficiente,"Celular con alto rendimiento y diseño elegante",imgA55_1|imgA55_2,439.00,USD,true,2025-07-01T10:00:00,2025-07-15T09:30:00
-P-1001,S-001,P-1000,A55-256-BLUE,Samsung Galaxy A55 5G 256GB Azul,Samsung,Smartphones,color=Azul oscuro|ram=8GB|rom=256GB,,,,imgA55b1|imgA55b2,439.00,USD,true,2025-07-01T10:05:00,2025-07-15T09:30:00
-P-1002,S-001,P-1000,A55-256-BLACK,Samsung Galaxy A55 5G 256GB Negro,Samsung,Smartphones,color=Negro|ram=8GB|rom=256GB,,,,imgA55c1|imgA55c2,439.00,USD,true,2025-07-01T10:05:00,2025-07-15T09:30:00
-P-2000,S-003,,E50F-PARENT,Moto Edge 50 Fusion 5G,Motorola,Smartphones,,Rapidez y diseño,"Potente procesador y cámara de alta resolución",imgE50_1|imgE50_2,419.00,USD,true,2025-07-01T09:00:00,2025-07-15T08:30:00
-P-2001,S-003,P-2000,E50F-256-ATN,Moto Edge 50 Fusion 5G 256GB Azul Atómico,Motorola,Smartphones,color=Azul Atómico|ram=6GB|rom=256GB,,,,imgE50b1|imgE50b2,419.00,USD,true,2025-07-01T09:10:00,2025-07-15T08:30:00
-P-3000,S-004,,IP15-PARENT,Apple iPhone 15,Apple,Smartphones,,Última generación,"Rendimiento y calidad premium",imgIP15_1|imgIP15_2,999.00,USD,true,2025-07-02T12:00:00,2025-07-15T12:30:00
-P-3001,S-004,P-3000,IP15-128-BLK,Apple iPhone 15 128GB Negro,Apple,Smartphones,color=Negro|rom=128GB,,,,imgIP15b1|imgIP15b2,999.00,USD,true,2025-07-02T12:05:00,2025-07-15T12:30:00
-P-3002,S-004,P-3000,IP15-256-WHT,Apple iPhone 15 256GB Blanco,Apple,Smartphones,color=Blanco|rom=256GB,,,,imgIP15c1|imgIP15c2,1199.00,USD,true,2025-07-02T12:05:00,2025-07-15T12:30:00
-P-4000,S-005,,TBX-PARENT,Lenovo Tab X,Lenovo,Tablets,,Tablet versátil,"Ideal para productividad y entretenimiento",imgTBX_1|imgTBX_2,320.00,USD,true,2025-07-01T14:00:00,2025-07-15T14:30:00
+product_id,seller_id,parent_product_id,sku_code,name,brand,category,variant_attrs,short_desc,long_desc,image_urls,base_price,currency,stock_qty,active,created_at,updated_at
+P-1000,S-001,,A55-PARENT,Samsung Galaxy A55 5G,Samsung,Smartphones,,Potente y eficiente,"Celular con alto rendimiento y diseño elegante",imgA55_1|imgA55_2,439.00,USD,,true,2025-07-01T10:00:00,2025-07-15T09:30:00
+P-1001,S-001,P-1000,A55-256-BLUE,Samsung Galaxy A55 5G 256GB Azul,Samsung,Smartphones,color=Azul oscuro|ram=8GB|rom=256GB,,,imgA55b1|imgA55b2,439.00,USD,60,true,2025-07-01T10:05:00,2025-07-15T09:30:00
+P-1002,S-001,P-1000,A55-256-BLACK,Samsung Galaxy A55 5G 256GB Negro,Samsung,Smartphones,color=Negro|ram=8GB|rom=256GB,,,imgA55c1|imgA55c2,439.00,USD,70,true,2025-07-01T10:05:00,2025-07-15T09:30:00
+P-2000,S-003,,E50F-PARENT,Moto Edge 50 Fusion 5G,Motorola,Smartphones,,Rapidez y diseño,"Potente procesador y cámara de alta resolución",imgE50_1|imgE50_2,419.00,USD,,true,2025-07-01T09:00:00,2025-07-15T08:30:00
+P-2001,S-003,P-2000,E50F-256-ATN,Moto Edge 50 Fusion 5G 256GB Azul Atómico,Motorola,Smartphones,color=Azul Atómico|ram=6GB|rom=256GB,,,imgE50b1|imgE50b2,419.00,USD,40,true,2025-07-01T09:10:00,2025-07-15T08:30:00
+P-3000,S-004,,IP15-PARENT,Apple iPhone 15,Apple,Smartphones,,Última generación,"Rendimiento y calidad premium",imgIP15_1|imgIP15_2,999.00,USD,,true,2025-07-02T12:00:00,2025-07-15T12:30:00
+P-3001,S-004,P-3000,IP15-128-BLK,Apple iPhone 15 128GB Negro,Apple,Smartphones,color=Negro|rom=128GB,,,imgIP15b1|imgIP15b2,999.00,USD,30,true,2025-07-02T12:05:00,2025-07-15T12:30:00
+P-3002,S-004,P-3000,IP15-256-WHT,Apple iPhone 15 256GB Blanco,Apple,Smartphones,color=Blanco|rom=256GB,,,imgIP15c1|imgIP15c2,1199.00,USD,20,true,2025-07-02T12:05:00,2025-07-15T12:30:00
+P-4000,S-005,,TBX-PARENT,Lenovo Tab X,Lenovo,Tablets,,Tablet versátil,"Ideal para productividad y entretenimiento",imgTBX_1|imgTBX_2,320.00,USD,,true,2025-07-01T14:00:00,2025-07-15T14:30:00
+P-4001,S-005,P-4000,TBX-64GB,Lenovo Tab X 64GB,Lenovo,Tablets,rom=64GB,,,imgTBX64_1|imgTBX64_2,320.00,USD,100,true,2025-07-01T14:10:00,2025-07-15T14:30:00

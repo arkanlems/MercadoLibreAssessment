@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Getter
@@ -15,11 +14,8 @@ import java.time.LocalDateTime;
 public class Listing {
     private String listingId;
     private String sellerId;
-    private String productId; // Referencia al producto padre
+    private String productId;
     private String title;
-    private BigDecimal price;
-    private BigDecimal discountPct;
-    private String installmentsText;
     private boolean freeShipping;
     private ListingStatus status;
     private LocalDateTime publishedAt;
