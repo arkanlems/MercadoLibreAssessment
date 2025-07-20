@@ -1,0 +1,6 @@
+listing_id,seller_id,product_id,title,price,discount_pct,stock_qty,installments_text,free_shipping,status,published_at,updated_at
+L-9000,S-001,P-1000,"Samsung Galaxy A55 5G Dual SIM 256GB",439.00,12,150,"10x $19.41 sin interés",true,ACTIVA,2025-07-01T10:00:00,2025-07-15T09:30:00
+L-9001,S-003,P-2000,"Moto Edge 50 Fusion 5G 256GB",419.00,11,80,"10x $18.26 sin interés",true,ACTIVA,2025-07-02T09:00:00,2025-07-15T09:30:00
+L-9002,S-004,P-3000,"Apple iPhone 15 128GB/256GB",999.00,0,50,"12x $83.25 sin interés",false,ACTIVA,2025-07-02T12:00:00,2025-07-15T12:30:00
+L-9003,S-005,P-4000,"Lenovo Tab X 64GB/128GB",320.00,5,100,"6x $53.33 sin interés",true,ACTIVA,2025-07-01T14:00:00,2025-07-15T14:30:00
+L-9004,S-002,P-1000,"Samsung Galaxy A55 5G Importado",445.00,10,60,"10x $20.00 sin interés",false,ACTIVA,2025-07-05T10:00:00,2025-07-15T09:30:00
