@@ -1,37 +1,23 @@
-# Catalog Service (CSV Prototype)
+# 📦 MercadoLibre Catalog Service
 
-Este proyecto implementa un servicio de catálogo para un marketplace. Toda la información (productos, listados, descuentos, vendedores) se carga desde archivos CSV en la carpeta `resources/data`.  
-La arquitectura sigue **DDD (Domain-Driven Design)** con **repositorios en CSV**, y expone un API REST con Spring Boot.
-
----
-
-## **Tecnologías utilizadas**
-- **Java 17**
-- **Spring Boot 3.x**
-- **Lombok**
-- **OpenCSV** (carga de datos CSV)
-- **JUnit 5 + Mockito** (tests)
-- **Docker** (para integración en contenedores)
-- **Maven**
+Este proyecto es un **servicio de catálogo** para MercadoLibre, desarrollado en **Java 17**, **Spring Boot**, y utilizando **CSV repositories** como fuente de datos.  
+Ofrece endpoints para consultar publicaciones (listings) con sus productos, variantes, descuentos activos y la información del vendedor.
 
 ---
 
-## **Estructura principal**
-- **Domain**: Contiene las entidades (`Product`, `Listing`, `Seller`, `ProductDiscount`) y sus repositorios (`ProductRepository`, etc.).
-- **Infrastructure**: Implementaciones CSV de los repositorios (por ejemplo, `CsvProductRepository`).
-- **API**: Controladores REST y DTOs para exponer los datos al frontend.
-- **Tests**: Cubren repositorios, servicios y controladores.
+## 🚀 **Requisitos Previos**
+
+- **Java 17** (recomendado OpenJDK 17)
+- **Maven 3.8+**
+- **Postman** (opcional para probar los endpoints)
 
 ---
-
-## **Endpoints principales**
-
-| Método | Endpoint                            | Descripción                                        |
-|--------|-------------------------------------|----------------------------------------------------|
-| GET    | `/api/listings/{listingId}`         | Obtiene detalle de una publicación (producto + vendedor). |
-| GET    | `/api/products/{productId}`         | Obtiene información de un producto específico.     |
-| GET    | `/api/sellers/{sellerId}`           | Obtiene información de un vendedor.                |
-| GET    | `/api/listings?sellerId=S-001`      | Lista las publicaciones de un vendedor.            |
-
+## 🚀 **Swagger** 
+- http://localhost:8080/swagger-ui/index.html
 ---
+## ▶️ **Cómo correr el proyecto**
 
+## **Ejecución**
+1. **Compilar el proyecto**:
+   ```bash
+   mvn clean install

@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "e0ecc806-13f8-4502-8d33-1951a6fb64d9",
+		"name": "Listing Detail API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Listing Detail - Simple",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/listings/L-9000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"listings",
+						"L-9000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Listing Detail - With 'at' Parameter",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/listings/L-9000?at=2025-07-10T12:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"listings",
+						"L-9000"
+					],
+					"query": [
+						{
+							"key": "at",
+							"value": "2025-07-10T12:00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Listing Detail - Invalid Date",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/listings/L-9000?at=INVALID_DATE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"listings",
+						"L-9000"
+					],
+					"query": [
+						{
+							"key": "at",
+							"value": "INVALID_DATE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Listing Detail - Not Found",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/listings/L-9999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"listings",
+						"L-9999"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
