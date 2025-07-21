@@ -18,4 +18,5 @@ public class ProductVariantDTO {
     String currency;
     Integer stockQty;
     Boolean active;
+    
 }

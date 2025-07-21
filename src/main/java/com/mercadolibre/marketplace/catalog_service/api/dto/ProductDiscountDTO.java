@@ -10,9 +10,9 @@ import java.time.LocalDateTime;
 @Builder
 public class ProductDiscountDTO {
     String discountId;
-    BigDecimal percentage;
-    BigDecimal amount;
+    BigDecimal percentage;  // porcentaje (0-100)
     LocalDateTime startAt;
     LocalDateTime endAt;
     Boolean active;
+    String currency;
 }
