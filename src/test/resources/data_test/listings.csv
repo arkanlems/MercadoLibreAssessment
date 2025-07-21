@@ -1,0 +1,6 @@
+listing_id,seller_id,product_id,title,discount_pct,free_shipping,status,published_at,updated_at
+L-9000,S-001,P-1000,"Samsung Galaxy A55 5G Dual SIM 256GB",12,true,ACTIVA,2025-07-01T10:00:00,2025-07-15T09:30:00
+L-9001,S-003,P-2000,"Moto Edge 50 Fusion 5G 256GB",11,true,ACTIVA,2025-07-02T09:00:00,2025-07-15T09:30:00
+L-9002,S-004,P-3000,"Apple iPhone 15 128GB/256GB",0,false,ACTIVA,2025-07-02T12:00:00,2025-07-15T12:30:00
+L-9003,S-005,P-4000,"Lenovo Tab X 64GB/128GB",5,true,ACTIVA,2025-07-01T14:00:00,2025-07-15T14:30:00
+L-9004,S-002,P-1000,"Samsung Galaxy A55 5G Importado",10,false,ACTIVA,2025-07-05T10:00:00,2025-07-15T09:30:00

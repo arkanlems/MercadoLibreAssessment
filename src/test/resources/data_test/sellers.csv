@@ -1,0 +1,6 @@
+seller_id,store_name,country_code,reputation_tier,total_sales,is_official_store,created_at,updated_at
+S-001,Samsung Oficial,UY,PLATINO,5000,true,2025-07-01T00:00:00,2025-07-15T09:00:00
+S-002,TecnoImport,AR,ORO,1200,false,2025-06-20T12:00:00,2025-07-14T08:00:00
+S-003,Motorola Store,CL,PLATINO,3200,true,2025-05-10T09:30:00,2025-07-15T08:15:00
+S-004,Apple Premium,US,PLATINO,9500,true,2025-03-25T14:45:00,2025-07-16T10:00:00
+S-005,TechWorld,MX,PLATA,800,false,2025-06-01T11:00:00,2025-07-15T07:00:00
