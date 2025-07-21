@@ -160,8 +160,6 @@ public class CsvProductRepository implements ProductRepository {
         }
     }
 
-    // ---------- ProductRepository methods ----------
-
     @Override
     public List<Product> findAll() {
         return Collections.unmodifiableList(products);
