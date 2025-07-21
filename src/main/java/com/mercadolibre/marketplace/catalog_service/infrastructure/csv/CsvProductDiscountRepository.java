@@ -71,7 +71,6 @@ public class CsvProductDiscountRepository implements ProductDiscountRepository {
                 .productId(trim(csv.getProductId()))
                 .discountType(parseType(csv.getDiscountType()))
                 .discountValue(parseBigDecimal(csv.getDiscountValue()))
-                .currency(blankToNull(csv.getCurrency()))
                 .active(parseBoolean(csv.getActive()))
                 .startAt(parseDate(csv.getStartAt()))
                 .endAt(parseDate(csv.getEndAt()))

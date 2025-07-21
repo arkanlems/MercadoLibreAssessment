@@ -34,6 +34,7 @@ public class ListingDetailMapper {
                 .percentage(discount.getDiscountValue()) // siempre porcentaje
                 .startAt(discount.getStartAt())
                 .endAt(discount.getEndAt())
+                .active(discount.isActive())
                 .build();
     }
 
@@ -67,13 +68,20 @@ public class ListingDetailMapper {
     private ProductDTO toProductDTO(Product parent, List<ProductVariantDTO> variants, ProductDiscount discount) {
         return ProductDTO.builder()
                 .productId(parent.getProductId())
+                .sellerId(parent.getSellerId())
+                .skuCode(parent.getSkuCode())
                 .name(parent.getName())
                 .brand(parent.getBrand())
                 .category(parent.getCategory())
+                .shortDesc(parent.getShortDesc())
                 .longDesc(parent.getLongDesc())
                 .imageUrls(parent.getImageUrls())
+                .variantAttributes(parent.getVariantAttributes())
                 .variants(variants)
                 .discount(discount != null ? toDiscountDTO(discount) : null)
+                .active(parent.isActive())
+                .createdAt(parent.getCreatedAt())
+                .updatedAt(parent.getUpdatedAt())
                 .build();
     }
 
