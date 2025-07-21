@@ -16,19 +16,16 @@ public class ProductDiscountCsv {
     private String discountId;
 
     @CsvBindByName(column = "seller_id")
-    private String sellerId; // may be blank -> global discount
+    private String sellerId;
 
     @CsvBindByName(column = "product_id")
     private String productId;
 
     @CsvBindByName(column = "discount_type")
-    private String discountType; // PERCENTAGE | AMOUNT
+    private String discountType;
 
     @CsvBindByName(column = "discount_value")
     private String discountValue;
-
-    @CsvBindByName(column = "currency")
-    private String currency; // optional for percentage
 
     @CsvBindByName(column = "active")
     private String active;

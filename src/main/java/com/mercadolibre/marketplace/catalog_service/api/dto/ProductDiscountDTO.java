@@ -14,5 +14,4 @@ public class ProductDiscountDTO {
     LocalDateTime startAt;
     LocalDateTime endAt;
     Boolean active;
-    String currency;
 }

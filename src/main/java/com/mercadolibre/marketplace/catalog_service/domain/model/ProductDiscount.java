@@ -20,7 +20,6 @@ public class ProductDiscount {
 
     private DiscountType discountType;
     private BigDecimal discountValue;
-    private String currency;
 
     private boolean active;
 
@@ -32,9 +31,4 @@ public class ProductDiscount {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    public boolean isCurrentlyActive(LocalDateTime now) {
-        if (!active) return false;
-        if (startAt != null && now.isBefore(startAt)) return false;
-        return endAt == null || !now.isAfter(endAt);
-    }
 }
